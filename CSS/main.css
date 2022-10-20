@@ -1,0 +1,132 @@
+/* цвет основного текста rgba(0, 0, 0, 0.8) */
+/* вторичный цвет текста rgba #000000 */
+/* белый *#ffffff/
+/* акцент #18A0FB */
+/* вторичный цвет фона #F5F5F5 */
+
+
+
+
+:root{
+    --primary-text-color: rgba(0, 0, 0, 0.8);
+    --title-text-color: #000000;
+    --accent-color:#18A0FB;
+    --primary-white-color:#ffffff;
+}
+
+
+
+body{
+background-color: var(--primary-white-color);
+color:var(--primary-text-color);
+font-family: Montserrat, sans-serif;
+letter-spacing: -0.015em;
+font-size: 18px;
+line-height: 1,67;
+}
+
+.list{
+list-style: none;
+}
+
+/* -------LOGO--------- */
+
+.logo{
+color:var(--title-text-color);
+font-family: Comfortaa, cursive;
+font-size: 28px;
+line-height: 1,14px;
+text-decoration: none;
+}
+
+
+.logo:hover{
+color:var(--accent-color);
+}
+
+
+/* site-nav  */
+.site-nav .linc{
+color:var(--accent-color);
+font-weight: 500;
+font-size: 1,2px;
+line-height: 18px;
+text-decoration: none;
+}
+
+
+.site-nav .linc:hover,
+.site-nav .linc:focus{
+color:var(--title-text-color);
+}
+
+.site-nav .linc.current{
+color:var(--title-text-color);
+}
+
+/* --------Hero---------------- */
+
+.hero-titel{
+color:var(--title-text-color);
+font-weight: 400;
+font-size: 56px;
+line-height: 1,43;
+text-align: center;
+}
+
+
+/* Section */
+.section-title{
+columns:var(--title-text-color);
+font-weight: 400;
+font-size: 48px;
+line-height: 1,5;
+text-align: center;
+}
+.section-description{
+font-size: 36px;
+line-height: 1,39;
+}
+
+/*--------- Fiatures i Examples---------*/
+
+.fiature-list .titel,
+.work-list .titel{
+color:var(--title-text-color);
+font-weight: 700;
+font-size: 24px;
+line-height: 1,5;
+}
+
+
+.fiature-list .link{
+color:var(--accent-color);
+}
+
+/* Examples */
+/* .work-list .titel{
+color: var(--title-text-color);
+font-weight: 700;
+font-size: 24px;
+line-height: 1,5;
+} */
+
+/* Button */
+.button{
+color:var(--title-text-color);
+background-color:var(--primary-white-color);
+font-weight: 500;
+font-size: 15px;
+line-height: 1,2px;
+text-decoration: none;
+}
+
+.button.primary{
+    background-color: var(--accent-color);
+    color: var(--primary-white-color);
+
+}
+.button.secondary{
+    background-color: var(--primary-white-color);
+    color: var(--accent-color);
+}

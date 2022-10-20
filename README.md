@@ -1,2 +1,2 @@
-# PhotoStudio
+# photo
  

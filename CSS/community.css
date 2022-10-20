@@ -1,0 +1,12 @@
+body{
+    background-color:orange;
+    /* color:var(--primary-text-color); */
+    }   
+      
+    .text > span {
+      text-decoration:line-through;
+    }
+    
+    .link {
+      text-decoration: none;
+    }
