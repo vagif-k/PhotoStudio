@@ -17,7 +17,7 @@
 
 
 body{
-background-color: var(--primary-white-color);
+background-color:gainsboro;
 color:var(--primary-text-color);
 font-family: Montserrat, sans-serif;
 letter-spacing: -0.015em;
@@ -28,6 +28,15 @@ line-height: 1,67;
 .list{
 list-style: none;
 }
+.container{
+margin-left: auto;
+margin-right: auto;
+width: 1400px;
+outline: 2px solid tomato;
+}
+
+
+
 
 /* -------LOGO--------- */
 
@@ -113,8 +122,13 @@ line-height: 1,5;
 
 /* Button */
 .button{
+display: inline-block;
+border-radius: 6px;
+padding: 11px 34px;
+
 color:var(--title-text-color);
 background-color:var(--primary-white-color);
+
 font-weight: 500;
 font-size: 15px;
 line-height: 1,2px;
@@ -122,11 +136,11 @@ text-decoration: none;
 }
 
 .button.primary{
-    background-color: var(--accent-color);
-    color: var(--primary-white-color);
+background-color: var(--accent-color);
+color: var(--primary-white-color);
 
 }
 .button.secondary{
-    background-color: var(--primary-white-color);
-    color: var(--accent-color);
+background-color: var(--primary-white-color);
+color: var(--accent-color);
 }
