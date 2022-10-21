@@ -27,11 +27,15 @@ line-height: 1,67;
 
 .list{
 list-style: none;
+padding: 0;
+margin: 0;
 }
+
+
 .container{
 margin-left: auto;
 margin-right: auto;
-width: 1400px;
+width: 1300px;
 outline: 2px solid tomato;
 }
 
@@ -58,8 +62,8 @@ color:var(--accent-color);
 .site-nav .linc{
 color:var(--accent-color);
 font-weight: 500;
-font-size: 1,2px;
-line-height: 18px;
+font-size: 15px;
+line-height: 1,2;
 text-decoration: none;
 }
 
@@ -75,38 +79,59 @@ color:var(--title-text-color);
 
 /* --------Hero---------------- */
 
+
+.hero{
+text-align: center;
+}
+
 .hero-titel{
+margin-top: 0;
+margin-bottom:40px;
 color:var(--title-text-color);
+
 font-weight: 400;
 font-size: 56px;
-line-height: 1,43;
-text-align: center;
+line-height:1,43;
 }
 
 
 /* Section */
 .section-title{
+margin-top: 0;
+margin-bottom: 60px;
 columns:var(--title-text-color);
+
 font-weight: 400;
 font-size: 48px;
-line-height: 1,5;
+line-height:1,5;
 text-align: center;
+background-color: crimson;
 }
+
+
 .section-description{
 font-size: 36px;
-line-height: 1,39;
+line-height:1,39;
 }
 
 /*--------- Fiatures i Examples---------*/
 
 .fiature-list .titel,
 .work-list .titel{
+margin-top: 0;
+margin-bottom: 24px;
 color:var(--title-text-color);
+
+
 font-weight: 700;
 font-size: 24px;
 line-height: 1,5;
 }
 
+.fiature-list p{
+margin-top: 0;
+margin-bottom: 32px;
+}
 
 .fiature-list .link{
 color:var(--accent-color);
@@ -123,8 +148,11 @@ line-height: 1,5;
 /* Button */
 .button{
 display: inline-block;
+border: 1px solid transparent;
+
 border-radius: 6px;
 padding: 11px 34px;
+min-width: 130px;
 
 color:var(--title-text-color);
 background-color:var(--primary-white-color);
@@ -133,14 +161,18 @@ font-weight: 500;
 font-size: 15px;
 line-height: 1,2px;
 text-decoration: none;
+text-align: center;
 }
 
 .button.primary{
 background-color: var(--accent-color);
 color: var(--primary-white-color);
 
+
 }
 .button.secondary{
+border-color: var(--accent-color);
+
 background-color: var(--primary-white-color);
 color: var(--accent-color);
 }
