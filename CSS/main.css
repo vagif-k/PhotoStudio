@@ -26,6 +26,13 @@ font-size: 18px;
 line-height: 1,67;
 }
 
+/* УТИЛИТЫ */
+.list{
+list-style: none;
+padding: 0;
+margin: 0;
+}
+
 
 .container{
 margin-left: auto;
@@ -61,12 +68,46 @@ color:var(--accent-color);
 
 
 /* site-nav  */
+
+.main-nav {
+    display: flex;
+    align-items: center;
+}
+
+.site-nav{
+    display: flex;
+    margin-left: 70px;
+}
+
+.site-nav .item{
+    /* background-color: tomato; */
+    /* margin-right: 40px; */
+}
+
+/* .site-nav .item:last-child {
+    margin-right: 0;
+} */
+
+/* .site-nav .item:not(:last-child) {
+    margin-right: 40px;
+
+} */
+
+.site-nav .item + .item {
+    margin-left: 40px;
+
+}
+
 .site-nav .linc{
-color:var(--accent-color);
-font-weight: 500;
-font-size: 15px;
-line-height: 1,2;
-text-decoration: none;
+    display: block;
+    padding-top: 21px;
+    padding-bottom: 21px;
+
+    color:var(--accent-color);
+    font-size: 15px;
+    line-height: 1,2;
+    text-decoration: none;
+    font-weight: 500;
 }
 
 
@@ -79,11 +120,19 @@ color:var(--title-text-color);
 color:var(--title-text-color);
 }
 
-.list{
-list-style: none;
-padding: 0;
-margin: 0;
+/*------ AUT-NAV------ */
+
+.aut-nav {
+    display: flex;
+    margin-left: auto;
+
 }
+
+.aut-nav .item + .item {
+    margin-left: 12px;
+}
+
+
 
 
 
@@ -142,6 +191,16 @@ line-height:1,39;
 
 
 /*--------- Fiatures i Examples---------*/
+
+.fiature-list{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.fiature-list .item {
+    width: 300px;
+    background-color: tomato;
+}
 
 .fiature-list .titel,
 .work-list .titel{
