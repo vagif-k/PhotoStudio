@@ -177,7 +177,8 @@ line-height:1,5;
 
 }
 
-.section-title.centered{
+.section-title.centered,
+.section-description.centered{
 text-align: center;
 }
 
@@ -285,6 +286,45 @@ background-color:var(--secondary-bg-color);
 }
 
 
+/*--------- CKLIENT --------------*/
+
+.clIent-list {
+    display: flex;
+    flex-wrap: wrap;
+    width: 1020px;
+    margin: -30px -40px;
+    margin-left: auto;
+    margin-right: auto;
+
+}
+
+.clIent-list li{
+    margin: 30px 40px;
+    
+}
+
+
+/* РЕГТСТРАЦИЯ */
+
+.description-container{
+    display: flex;
+    align-items: center;
+
+}
+
+/* .description-section{
+    display: flex;
+} */
+
+.section-description {
+    width:943px;
+    margin: auto;
+    margin-right: 85px;
+    margin-left: 0;
+
+}
+
+
 /* Button */
 .button{
 display: inline-block;
@@ -307,6 +347,7 @@ text-align: center;
 .button.primary{
 background-color: var(--accent-color);
 color: var(--primary-white-color);
+margin-right: 45px;
 
 
 }
