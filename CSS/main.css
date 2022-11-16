@@ -353,16 +353,13 @@ color: var(--accent-color);
 /*---------------- FOOTER -----------------------*/
 
 .footer-section {
-    display: flex;
-    
+    display: flex;   
     justify-content:space-evenly;
-    
 }
 
 
 .mobile{
-    display: flex;
-    
+    display: flex;  
 }
 
 .footer-section .logo {
@@ -390,11 +387,9 @@ color: var(--accent-color);
     display: block;
     padding-top: 10px;
     padding-bottom: 10px;
-
     font-size: 15px;
     line-height: 1,6;
-    letter-spacing: -0.015em;
-    
+    letter-spacing: -0.015em;    
     color: #000000;
     font-weight: 700;
 }
@@ -436,13 +431,9 @@ color: var(--accent-color);
     text-align: center;
     margin-top: 50px;
     margin-bottom: 100px;
-
-    line-height: 1,6;
-    /* identical to box height, or 160% */
-    
+    line-height: 1,6; 
     text-align: center;
-    letter-spacing: -0.015em;
-    
+    letter-spacing: -0.015em;   
     color: rgba(0, 0, 0, 0.8);
     font-size: 15px;
 }
