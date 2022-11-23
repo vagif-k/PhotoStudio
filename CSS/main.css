@@ -203,6 +203,7 @@ line-height:1,39;
     width: 625px;
     margin: 40px 75px;
 }
+}
 
 
 
@@ -436,4 +437,69 @@ color: var(--accent-color);
     letter-spacing: -0.015em;   
     color: rgba(0, 0, 0, 0.8);
     font-size: 15px;
+}
+
+
+/* .soc .link::before{ 
+    display: block; 
+    content: url(../images/linkedin.svg);
+    background-size: contain;
+}
+
+.facebook{
+    background-image: url(../images/facebook.svg);
+    background-repeat: no-repeat;
+    background-color: aqua;
+} 
+.footer-container::before{
+    display: block;
+} */ 
+
+/* .item-soc::before {
+    display: block;
+    contain: ;
+    background-size: contain;
+    
+} */
+
+/* .facebook {
+    background-image: url(../images/facebook.svg);
+    background-repeat: no-repeat;
+    margin-right: 50px;
+} */
+
+/* ::before, ::after{
+    box-sizing: border-box;
+} */
+
+/* .soc::before{
+    box-sizing: border-box;
+
+} */
+
+/* .facebook::before{
+    content:"c";
+    width: 20px;
+    height: 20px;
+    margin-right: 20px;
+    background-image: url(../images/facebook.svg);
+    background-size: contain;
+    background-color: #18A0FB;
+
+} */
+
+.item-soc::before{
+    display: block;
+    content:"";
+    width: 25px;
+    height: 25px;
+    background-size: contain;
+    /* background-color: #18A0FB; */
+}
+.facebook::before {
+    background-image: url(../images/facebook.svg);
+
+}
+.Twitter::before{
+    background-image: url(../images/twitter.svg);
 }
